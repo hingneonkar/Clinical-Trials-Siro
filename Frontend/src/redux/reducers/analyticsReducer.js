@@ -1,8 +1,3 @@
-// import { FETCH_OFFICIALS_REQUEST, FETCH_OFFICIALS_SUCCESS, FETCH_OFFICIALS_FAILURE } from '../actions/analyticsActions';
-
-
-
-
 export const locationsReducer = (state = [], action) => {
     switch (action.type) {
       case 'FETCH_LOCATIONS':
@@ -44,7 +39,7 @@ export const locationsReducer = (state = [], action) => {
   const FETCH_OFFICIALS_SUCCESS = 'FETCH_OFFICIALS_SUCCESS';
   const FETCH_OFFICIALS_FAILURE = 'FETCH_OFFICIALS_FAILURE';
   
-  // Reducer
+
   export  function officialsReducer(state = initialState, action) {
     switch (action.type) {
       case FETCH_OFFICIALS_REQUEST:
